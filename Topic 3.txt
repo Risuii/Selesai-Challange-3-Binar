@@ -1,0 +1,7 @@
+repository = penyimpanan di git
+
+git init untuk menggunakan git untuk file/ folder kita
+git add (alamat ke file yang ada di pc/laptop)/(nama file) < untuk menyalin file tersebut ke staging area
+git commit -m "comment" untk memindahkan dari staging area ke local repository
+git reset HEAD@{1} untuk mengembalikan file yang ada di local repository
+untuk upload ke github > git remote add (nama alamat tempat kita upload) (alamat link dari github) lalu git push -u (nama alamat tempat kita upload) (nama branch)
